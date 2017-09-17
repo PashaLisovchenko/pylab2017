@@ -90,5 +90,5 @@ def sierpinski_triangle(my_points, **kwargs):
 
 my_points = [[-200, -100], [0, 200], [200, -100]]
 myWin = turtle.Screen()
-sierpinski_triangle(my_points, method="iter")
+sierpinski_triangle(my_points, method="iter", degree=7)
 myWin.exitonclick()
